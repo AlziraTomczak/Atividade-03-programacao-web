@@ -1,0 +1,140 @@
+https://github.com/AlziraTomczak/programacao-web-alzira.git
+
+
+
+
+
+******************************************************
+EXDEMPLO -01:
+
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site
+$ git clone https://github.com/AlziraTomczak/programacao-web-alzira.git
+Cloning into 'programacao-web-alzira'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site
+$ cd programacao-web-alzira/
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site/programacao-web-alzira (main)
+$ git add .
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site/programacao-web-alzira (main)
+$ git commit -m "adicionando arquivos do site"
+[main 8874484] adicionando arquivos do site
+ 20 files changed, 595 insertions(+)
+ create mode 100644 ATIVIDADE-02/Apostila_Banhodelua.pdf
+ create mode 100644 ATIVIDADE-02/Apostila_Depilacao.pdf
+ create mode 100644 ATIVIDADE-02/Apostila_Design.pdf
+ create mode 100644 ATIVIDADE-02/Apostila_Limpezapele.pdf
+ create mode 100644 ATIVIDADE-02/Referencia-Banhodelua.txt
+ create mode 100644 ATIVIDADE-02/Referencia-Design.txt
+ create mode 100644 ATIVIDADE-02/Referencia-depilacao.txt
+ create mode 100644 ATIVIDADE-02/Referencia-limpezapele.txt
+ create mode 100644 ATIVIDADE-02/Sobrancelhas.html
+ create mode 100644 ATIVIDADE-02/banho-lua-02.jpg
+ create mode 100644 ATIVIDADE-02/banhodelua.html
+ create mode 100644 ATIVIDADE-02/depilacao-02.jpg
+ create mode 100644 ATIVIDADE-02/depilacao.html
+ create mode 100644 ATIVIDADE-02/estilos.css
+ create mode 100644 ATIVIDADE-02/index.html
+ create mode 100644 ATIVIDADE-02/limpeza_pele-02.jpg
+ create mode 100644 ATIVIDADE-02/limpezapele.html
+ create mode 100644 ATIVIDADE-02/link do site.txt
+ create mode 100644 ATIVIDADE-02/logo-02.jpeg
+ create mode 100644 ATIVIDADE-02/sobrancelhas-02.jpg
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site/programacao-web-alzira (main)
+$ git push
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 10.21 MiB | 928.00 KiB/s, done.
+Total 23 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/AlziraTomczak/programacao-web-alzira.git
+   8f2fc8b..8874484  main -> main
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site/programacao-web-alzira (main)
+$ ^C
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site/programacao-web-alzira (main)
+$ ^C
+
+ACER@DESKTOP-R2EPR67 MINGW64 ~/Desktop/Repositorio site/programacao-web-alzira (main)
+$
+
+
+
+
+
+
+
+*********************************************************
+*********************************************************
+EXEMPLO-02:
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01
+$ git clone https://github.com/AlziraTomczak/Atividade-01-programacao-web.git
+Cloning into 'Atividade-01-programacao-web'...
+warning: You appear to have cloned an empty repository.
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01
+$ cd Atividade-01-programacao-web/
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01/Atividade-01-programacao-web (main)
+$ git add .
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01/Atividade-01-programacao-web (main)
+$ git commit -m
+error: switch `m' requires a value
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01/Atividade-01-programacao-web (main)
+$ git commit -m "adionando arquivos do site"
+[main (root-commit) 3e10242] adionando arquivos do site
+ 21 files changed, 653 insertions(+)
+ create mode 100644 ATIVIDADE-01/Apostila_Banhodelua.pdf
+ create mode 100644 ATIVIDADE-01/Apostila_Depilacao.pdf
+ create mode 100644 ATIVIDADE-01/Apostila_Design.pdf
+ create mode 100644 ATIVIDADE-01/Apostila_Limpezapele.pdf
+ create mode 100644 ATIVIDADE-01/Referencia-Banhodelua.txt
+ create mode 100644 ATIVIDADE-01/Referencia-Design.txt
+ create mode 100644 ATIVIDADE-01/Referencia-depilacao.txt
+ create mode 100644 ATIVIDADE-01/Referencia-limpezapele.txt
+ create mode 100644 ATIVIDADE-01/Sobrancelhas.html
+ create mode 100644 ATIVIDADE-01/banho-lua-01.jpg
+ create mode 100644 ATIVIDADE-01/banhodelua.html
+ create mode 100644 ATIVIDADE-01/depilacao-01.jpg
+ create mode 100644 ATIVIDADE-01/depilacao.html
+ create mode 100644 ATIVIDADE-01/estilos.css
+ create mode 100644 ATIVIDADE-01/index.html
+ create mode 100644 ATIVIDADE-01/limpeza_pele-01.jpg
+ create mode 100644 ATIVIDADE-01/limpeza_pele-01xx.jpg
+ create mode 100644 ATIVIDADE-01/limpeza_pele-01xy.jpg
+ create mode 100644 ATIVIDADE-01/limpezapele.html
+ create mode 100644 ATIVIDADE-01/logo-01.jpeg
+ create mode 100644 ATIVIDADE-01/sobrancelhas-01.jpg
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01/Atividade-01-programacao-web (main)
+$ git push
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (24/24), 10.22 MiB | 1.65 MiB/s, done.
+Total 24 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/AlziraTomczak/Atividade-01-programacao-web.git
+ * [new branch]      main -> main
+
+ACER@DESKTOP-R2EPR67 MINGW64 /d/ARQUIVOS DE USUARIO/Desktop/ALZIRA TOMCZAK/01-LICENCIATURA DA COMPUTAÇAO-2021/5-SEMESTRE/PROGRAMACAO WEB/Repositorio-Atividade-01/Atividade-01-programacao-web (main)
+$

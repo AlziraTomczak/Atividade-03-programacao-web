@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario de Inscrição de Cursos</title>
+</head>
+
+<body>
+    <div>
+        <h1>ÁREA DE CADASTRO</h1>
+        <h3>Insira seus Dados</h3>
+    </div>
+
+    <h1>Inscrição dos cursos</h1>
+
+    <form action="form_pagina2.html" method="POST">
+        <fieldset>
+            <br>
+            <div>
+                <label><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required /><br>
+            </div><br>
+
+            <div>
+                <label><strong>Sobrenome:</strong></label>
+                <input type="text" name="nome" id="sobrenome" required /><br>
+            </div><br>
+
+            <div>
+                <label><strong>CPF:</strong></label>
+                <input type="num" name="cpf" id="" required /><br>
+            </div><br>
+
+            <div>
+                <label><strong>Email:</strong></label>
+                <input type="email" name="email" id="email" required /><br>
+            </div><br>
+
+            <div>
+                <label><strong>Cursos:</strong></label>
+                <select id="ec" name="nome_curso">
+                    <option value="depilacao">Depilação - R$: 100,00</option>
+                    <option value="sobrancelhas">Designer de Sobrancelhas - R$: 120,00</option>
+                    <option value="limpezapele">Limpeza de Pele - R$: 120,00</option>
+                    <option value="banhodelua">Banho de Lua - R$: 90,00</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label><strong>Forma de Pagamento:</strong></label>
+                <label>
+                    <input type="radio" nome="cartao" value="cartaocredito" checked>Cartão de Crédito
+                </label>
+
+                <label>
+                    <input type="radio" nome="pix" value="pix">Pix
+                </label>
+
+                <label>
+                    <input type="radio" nome="dinheiro" value="dinheiro">Dinheiro
+                </label>
+
+                <label>
+                    <input type="radio" nome="boleto" value="boleto">Boleto
+                </label>
+
+            </div><br>
+
+            <div>
+                <label><strong>Mensagem:</strong></label>
+                <br>
+                <textarea id="msg*">Valor padrão do textarea</textarea>
+                <br>
+                <button Type="submit">Enviar</button>
+                <button Type="reset">Reset</button>
+                <!--<button Type="button" onclick="validarForms()">Button</button>-->
+            </div>
+        </fieldset>
+    </form><br>
+
+    <p>
+    <h5><a href="index.html">Página Inicial</a></h5>
+    </p>
+
+    <ul>
+        <li><a href="sobrancelhas.html">Curso de Design de Sobrancelhas</a></li>
+        <li><a href="depilacao.html">Curso de Depilação</a></li>
+        <li><a href="limpezapele.html">Curso de Limpeza de Pele</a></li>
+        <li><a href="banhodelua.html">Curso de Banho de Lua</a></li>
+    </ul>
+    <script type="text/javascript" src="codigo.js"></script>
+    <!--coloquei o comando javascript no final para que a página fique menos pesada ao carregar-->
+    <hr>
+
+    <h4 class="rodape">
+        <p>UFERSA - UNIVERSIDADE RURAL DO SEMI-ÁRIDO - RN</p>
+        <p>CURSO: LICENCIATURA EM COMPUTAÇÃO-EAD</p>
+        <p>ATIVIDADE ONLINE 02 - PROGRAMAÇÃO WEB</p>
+        <p>PROFESSOR: PAULO HENRIQUE</p>
+        <p>DISCENTES: ALZIRA CABRAL / GEOVÁ MAIA</p>
+    </h4>
+</body>
+
+
+</html>
